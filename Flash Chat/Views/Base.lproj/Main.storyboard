@@ -267,11 +267,11 @@
                         <constraints>
                             <constraint firstItem="Mkq-A4-A98" firstAttribute="leading" secondItem="ibK-5F-w36" secondAttribute="leading" id="2C5-yn-42W"/>
                             <constraint firstItem="Mkq-A4-A98" firstAttribute="top" secondItem="ibK-5F-w36" secondAttribute="top" id="HHp-L5-4dK"/>
-                            <constraint firstItem="naW-jg-02k" firstAttribute="leading" secondItem="NR3-PA-yDz" secondAttribute="leading" constant="50" id="Jlp-hU-Zr4"/>
+                            <constraint firstItem="naW-jg-02k" firstAttribute="leading" secondItem="ibK-5F-w36" secondAttribute="leading" constant="50" id="Jlp-hU-Zr4"/>
                             <constraint firstItem="naW-jg-02k" firstAttribute="top" secondItem="7JT-7R-lw4" secondAttribute="bottom" constant="20" id="L3T-jk-ck8"/>
                             <constraint firstItem="Mkq-A4-A98" firstAttribute="trailing" secondItem="ibK-5F-w36" secondAttribute="trailing" id="b5A-nE-cpV"/>
                             <constraint firstItem="7JT-7R-lw4" firstAttribute="leading" secondItem="ibK-5F-w36" secondAttribute="leading" id="dag-ZR-y4c"/>
-                            <constraint firstAttribute="trailing" secondItem="naW-jg-02k" secondAttribute="trailing" constant="50" id="eBG-HU-zLE"/>
+                            <constraint firstItem="ibK-5F-w36" firstAttribute="trailing" secondItem="naW-jg-02k" secondAttribute="trailing" constant="50" id="eBG-HU-zLE"/>
                             <constraint firstItem="7JT-7R-lw4" firstAttribute="trailing" secondItem="ibK-5F-w36" secondAttribute="trailing" id="mpt-SH-Lld"/>
                             <constraint firstItem="7JT-7R-lw4" firstAttribute="top" secondItem="Mkq-A4-A98" secondAttribute="bottom" constant="-100" id="yL0-RW-8ad"/>
                         </constraints>
@@ -361,7 +361,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6YX-ca-E8f"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Q5u-eL-Bgp"/>
+                    <navigationItem key="navigationItem" id="Q5u-eL-Bgp">
+                        <barButtonItem key="rightBarButtonItem" title="Log Out" id="koO-kx-l9z">
+                            <connections>
+                                <action selector="logOutPressed:" destination="lwd-AH-u8E" id="pVZ-2r-0HM"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="messageTextfield" destination="UWj-GQ-Vph" id="INS-Xk-EA9"/>
                         <outlet property="tableView" destination="S6L-hg-cne" id="dTJ-K9-WAe"/>
