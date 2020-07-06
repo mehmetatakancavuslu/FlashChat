@@ -18,6 +18,7 @@
 		0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B628190235DF01B00E35CAF /* ChatViewController.swift */; };
 		E691211324ABE1890076168C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E691211224ABE1890076168C /* GoogleService-Info.plist */; };
 		E6D53D6624B3D74100098D14 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D53D6524B3D74100098D14 /* Constants.swift */; };
+		E6D53D6824B3D9C400098D14 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D53D6724B3D9C400098D14 /* Message.swift */; };
 		E8DF09E191F1474ED78D1575 /* Pods_Flash_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0DEFC4C38CEBFF75F1104BE /* Pods_Flash_Chat.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,7 @@
 		E0DEFC4C38CEBFF75F1104BE /* Pods_Flash_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flash_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E691211224ABE1890076168C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E6D53D6524B3D74100098D14 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		E6D53D6724B3D9C400098D14 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Message.swift; path = "Flash Chat/Message.swift"; sourceTree = SOURCE_ROOT; };
 		FEAAF1299BEB94073C721D37 /* Pods-Flash Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flash Chat.debug.xcconfig"; path = "Target Support Files/Pods-Flash Chat/Pods-Flash Chat.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 		0B628194235DF03A00E35CAF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E6D53D6724B3D9C400098D14 /* Message.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				0B628179235DEE8100E35CAF /* SceneDelegate.swift in Sources */,
 				0B62818F235DF01000E35CAF /* LoginViewController.swift in Sources */,
 				E6D53D6624B3D74100098D14 /* Constants.swift in Sources */,
+				E6D53D6824B3D9C400098D14 /* Message.swift in Sources */,
 				0B628191235DF01B00E35CAF /* ChatViewController.swift in Sources */,
 				0B62818D235DF00B00E35CAF /* RegisterViewController.swift in Sources */,
 			);
